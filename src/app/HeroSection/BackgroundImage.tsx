@@ -3,7 +3,7 @@ import React from "react";
 
 export const BackgroundImage = () => {
   return (
-    <div className="absolute inset-0 w-screen h-screen md:max-h-[450px] -z-10">
+    <div className="absolute inset-0 w-screen h-screen md:max-h-[450px] lg:max-h-screen -z-10">
       <Image
         src="/images/Corriendo-maraton.png"
         alt={"niño corriendo en una maratón"}
