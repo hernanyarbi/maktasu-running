@@ -1,8 +1,8 @@
 import React from "react";
-import { WhatsappIcon } from "../ui/icons/WhatsappIcon";
+import { WhatsappIcon } from "../../ui/icons/WhatsappIcon";
 import { BackgroundImage } from "./BackgroundImage";
-import { Title } from "../ui/Typography/Title";
-import { ArrowDownIcon } from "../ui/icons/ArrowDownIcon";
+import { Title } from "../../ui/Typography/Title";
+import { ArrowDownIcon } from "../../ui/icons/ArrowDownIcon";
 
 export const HeroSection = () => {
   return (
