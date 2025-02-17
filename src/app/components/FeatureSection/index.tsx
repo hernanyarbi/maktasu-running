@@ -15,7 +15,7 @@ const emotionalFeatures = [
 
 export const FeatureSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-10 gap-10 px-4">
+    <section className="flex flex-col justify-center items-center py-10 gap-10 px-4 w-screen">
       <SubTitle>Beneficios de la Escuela de Atletismo</SubTitle>
       <div className="flex flex-col md:flex-row gap-4 lg:gap-8">
         <FeatureCard title="Físicos" features={physicalFeatures} />
