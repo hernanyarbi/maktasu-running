@@ -1,6 +1,5 @@
 import { SubTitle } from "@/app/ui/Typography/SubTitle";
 import Image from "next/image";
-import React from "react";
 
 export const LocationSection = () => {
   return (
