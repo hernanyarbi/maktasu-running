@@ -1,25 +1,24 @@
 import React from "react";
 import { ActivityCard } from "./ActivityCard";
 import { SubTitle } from "@/app/ui/Typography/SubTitle";
-import imageActivity from "../../../../public/images/Lanzando una pelota.png";
 const activities = [
   {
     title: "Entrada en calor",
     description:
       "Se inicia con movilidad articular y la entrada en calor. Son importantes para evitar la fatiga y lesiones de los niños en las actividades.",
-    image: "/images/Lanzando una pelota.png",
+    image: "/images/estiramiento.png",
   },
   {
     title: "Estado Físico",
     description:
       "Mejoramos las capacidades físicas coordinativas y condicionales en cada uno de los niños que asisten a la escuela.",
-    image: imageActivity,
+    image: "/images/estado-fisico.png",
   },
   {
     title: "Torneos",
     description:
       "Mejoramiento técnico de las actividades (Correr, salto en largo, etc.) en la que se van a desempeñar para los torneos mensuales.",
-    image: imageActivity,
+    image: "/images/participacion-en-torneos.png",
   },
 ];
 export const ActivitiesSection = () => {

@@ -9,6 +9,7 @@ export const BackgroundImage = () => {
         alt={"niño corriendo en una maratón"}
         fill
         className="object-cover object-[65%_35%] md:object-[20%_80%]"
+        unoptimized
       />
       <div className="absolute bottom-0 w-screen md:w-2/3 h-2/3 md:h-screen bg-gradient-to-t md:bg-gradient-to-r from-white to-transparent"></div>
     </div>

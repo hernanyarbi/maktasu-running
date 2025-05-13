@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  assetPrefix: '/', 
+  // Optional: Set a trailing slash for cleaner URLs
+  trailingSlash: true,
 };
 
 export default nextConfig;

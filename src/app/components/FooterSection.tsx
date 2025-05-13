@@ -17,13 +17,16 @@ export const FooterSection = () => {
             <br />
             ¡No te lo pierdas y sumate a esta experiencia atlética!
           </p>
-          <button
+          <a
+            href="https://wa.me/5493885761240"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-transparent hover:bg-accent-1 border-2 border-accent-1 
           text-accent-1 hover:text-[#121212] text-lg font-semibold 
           w-fit py-4 px-3 rounded-2xl"
           >
             Hablar con la profe
-          </button>
+          </a>
         </div>
         <div className="relative">
           <Image
@@ -31,6 +34,7 @@ export const FooterSection = () => {
             alt="Grupo de la escuela de atletismo"
             fill
             className="size-44 object-cover rounded-xl "
+            unoptimized
           />
         </div>
       </div>

@@ -12,6 +12,7 @@ export const LocationSection = () => {
             alt="Cancha de la olla"
             fill
             className="object-cover rounded-2xl"
+            unoptimized
           />
         </div>
         <div className="w-[320px] lg:w-[450px] h-fit md:h-72 flex flex-col gap-4">
